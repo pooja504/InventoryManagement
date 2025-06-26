@@ -3,6 +3,7 @@ package com.pooja.product.inventorymanagement.controller;
 import com.pooja.product.inventorymanagement.model.Product;
 import com.pooja.product.inventorymanagement.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -52,6 +53,12 @@ public class Productcontroller {
 
         productService.addAllProducts(products);
         return ResponseEntity.ok().build();
+    }
+
+    @DeleteMapping("/delete/all")
+    @ResponseStatus(value = HttpStatus.ACCEPTED)
+    public void deleteall(){
+        productService.deleteAll();
     }
 
 

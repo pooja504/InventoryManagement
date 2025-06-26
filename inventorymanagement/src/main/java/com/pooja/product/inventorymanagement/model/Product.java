@@ -24,6 +24,7 @@ public class Product {
     private String description;
     private float price;
     private List<String> category;
+    private int quantity;
 
 
 }

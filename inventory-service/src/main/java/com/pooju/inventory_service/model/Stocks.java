@@ -13,7 +13,7 @@ import lombok.Data;
 public class Stocks {
 
     @Id
-    @Column(name = "Product id")
+    @Column(name = "Product_id")
     private String id;
     private long quantity;
 }

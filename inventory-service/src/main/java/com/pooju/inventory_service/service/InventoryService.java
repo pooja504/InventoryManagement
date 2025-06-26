@@ -33,4 +33,8 @@ public class InventoryService {
         return responseList;
     }
 
+    public void addStocks(List<Stocks> stonks){
+        inventoryRepo.saveAll(stonks);
+    }
+
 }
