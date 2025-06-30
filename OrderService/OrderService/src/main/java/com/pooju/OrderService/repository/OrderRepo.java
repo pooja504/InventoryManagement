@@ -1,6 +1,6 @@
-package repository;
+package com.pooju.OrderService.repository;
 
-import model.Orders;
+import com.pooju.OrderService.model.Orders;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

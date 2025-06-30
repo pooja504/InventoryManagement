@@ -1,14 +1,14 @@
-package controller;
+package com.pooju.OrderService.controller;
 
 
-import model.Orders;
+import com.pooju.OrderService.model.Orders;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import service.OrderService;
+import com.pooju.OrderService.service.OrderService;
 
 @RestController
 @RequestMapping("/Orders")
