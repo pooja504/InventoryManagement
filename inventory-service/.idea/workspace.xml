@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df0fcb01-5274-4a89-bf07-dbd38bd391ab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../OrderService/OrderService/src/main/java/com/pooju/OrderService/client/OrderFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OrderService/OrderService/src/main/java/com/pooju/OrderService/dto/ResponseStockDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OrderService/OrderService/src/main/java/com/pooju/OrderService/model/OrderedProducts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inventorymanagement/src/main/java/com/pooja/product/inventorymanagement/service/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inventorymanagement/src/main/java/com/pooja/product/inventorymanagement/service/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OrderService/OrderService/src/main/java/client/OrderFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OrderService/OrderService/src/main/java/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OrderService/OrderService/src/main/java/com/pooju/OrderService/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OrderService/OrderService/src/main/java/model/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OrderService/OrderService/src/main/java/com/pooju/OrderService/model/Orders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OrderService/OrderService/src/main/java/repository/OrderRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OrderService/OrderService/src/main/java/com/pooju/OrderService/repository/OrderRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OrderService/OrderService/src/main/java/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OrderService/OrderService/src/main/java/com/pooju/OrderService/service/OrderService.java" afterDir="false" />
+    <list default="true" id="df0fcb01-5274-4a89-bf07-dbd38bd391ab" name="Changes" comment="interservice communication using Feign client">
+      <change beforePath="$PROJECT_DIR$/../OrderService/OrderService/src/main/java/com/pooju/OrderService/client/OrderFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OrderService/OrderService/src/main/java/com/pooju/OrderService/client/OrderFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OrderService/OrderService/src/main/java/com/pooju/OrderService/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OrderService/OrderService/src/main/java/com/pooju/OrderService/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OrderService/OrderService/src/main/java/com/pooju/OrderService/model/OrderedProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OrderService/OrderService/src/main/java/com/pooju/OrderService/model/OrderedProducts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OrderService/OrderService/src/main/java/com/pooju/OrderService/model/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OrderService/OrderService/src/main/java/com/pooju/OrderService/model/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OrderService/OrderService/src/main/java/com/pooju/OrderService/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OrderService/OrderService/src/main/java/com/pooju/OrderService/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OrderService/OrderService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../OrderService/OrderService/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pooju/inventory_service/controller/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pooju/inventory_service/controller/InventoryController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,18 +52,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.InventoryServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.inventory.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/pooja/Documents/Spring Product Management project/InventoryManagement/inventory-service/pom.xml&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.InventoryServiceApplication.executor": "Run",
+    "Application.inventory.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/pooja/Documents/Spring Product Management project/InventoryManagement/inventory-service/pom.xml"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\pooja\Documents\Spring Product Management project\InventoryManagement\inventory-service\src\main" />
@@ -91,6 +88,21 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="interservice communication using Feign client" />
+    <option name="LAST_COMMIT_MESSAGE" value="interservice communication using Feign client" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -108,6 +120,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/pooju/inventory_service/service/InventoryService.java</url>
           <line>26</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pooju/inventory_service/controller/InventoryController.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pooju/inventory_service/service/InventoryService.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

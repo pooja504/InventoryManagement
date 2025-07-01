@@ -18,7 +18,7 @@ public class InventoryController {
     @Autowired
     private InventoryService inventoryService;
 
-    @GetMapping("/getstocks")
+    @PostMapping("/getstocks")
     public ResponseEntity<List<Response>> isInStock(@RequestBody List<Request> request){
         return ResponseEntity.ok(inventoryService.checkInStock(request));
     }

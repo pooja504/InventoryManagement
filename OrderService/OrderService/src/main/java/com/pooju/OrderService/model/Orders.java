@@ -17,9 +17,9 @@ import java.util.List;
 public class Orders {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long orderId;
-    @OneToMany
+    @OneToMany(cascade=CascadeType.ALL)
     private List<OrderedProducts> productsList;
     private double totalPrice;
 
