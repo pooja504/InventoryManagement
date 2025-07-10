@@ -28,6 +28,13 @@ public class OrderService {
         List<OrderedProducts> orderedProductsList= order.getProductsList();
         List<ResponseStockDto> responseStockDtos = orderFeignClient.getStock(orderedProductsList);
         List<OrderedProducts> availableProducts=new ArrayList<>();
+        if (responseStockDtos.isEmpty()) {
+            orderedProductsList.forEach(
+                    product-> product.setQuantity(-1));
+            order.setProductsList(orderedProductsList);
+
+            return order;
+        }
         orderedProductsList.forEach(
                 eachProduct -> {
 
