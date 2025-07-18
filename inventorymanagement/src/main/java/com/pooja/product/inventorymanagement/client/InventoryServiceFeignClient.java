@@ -14,4 +14,5 @@ public interface InventoryServiceFeignClient {
     @PostMapping("/addstocks")
     public void addProductToInventory(@RequestBody List<Stocks> stocks);
 
+
 }

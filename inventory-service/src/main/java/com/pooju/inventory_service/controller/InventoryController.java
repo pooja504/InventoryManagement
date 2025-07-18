@@ -29,5 +29,9 @@ public class InventoryController {
         inventoryService.addStocks(stonk);
 
     }
+    @GetMapping
+    public String hello(){
+        return "Hi i am inventory service";
+    }
 
 }

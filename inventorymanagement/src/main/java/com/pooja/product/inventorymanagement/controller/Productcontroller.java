@@ -62,6 +62,11 @@ public class Productcontroller {
     }
 
 
+    @GetMapping
+    public String hello(){
+        return "Hi i am product service";
+    }
+
 
 
 }
