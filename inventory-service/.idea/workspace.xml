@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df0fcb01-5274-4a89-bf07-dbd38bd391ab" name="Changes" comment="interservice communication using Feign client">
-      <change afterPath="$PROJECT_DIR$/../api_gateway/api_gateway/src/main/java/com/pooju/api_gateway/config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OrderService/OrderService/src/main/java/com/pooju/OrderService/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OrderService/OrderService/src/main/java/com/pooju/OrderService/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_gateway/api_gateway/src/main/java/com/pooju/api_gateway/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api_gateway/api_gateway/src/main/java/com/pooju/api_gateway/config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../api_gateway/api_gateway/src/main/java/com/pooju/api_gateway/routes/Route.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api_gateway/api_gateway/src/main/java/com/pooju/api_gateway/routes/Route.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pooju/inventory_service/controller/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pooju/inventory_service/controller/InventoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inventorymanagement/src/main/java/com/pooja/product/inventorymanagement/client/InventoryServiceFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../inventorymanagement/src/main/java/com/pooja/product/inventorymanagement/client/InventoryServiceFeignClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../inventorymanagement/src/main/java/com/pooja/product/inventorymanagement/controller/Productcontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../inventorymanagement/src/main/java/com/pooja/product/inventorymanagement/controller/Productcontroller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

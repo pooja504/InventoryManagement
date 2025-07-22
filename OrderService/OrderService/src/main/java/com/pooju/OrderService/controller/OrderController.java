@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import com.pooju.OrderService.service.OrderService;
 
 @RestController
-@RequestMapping("/Orders")
+@RequestMapping
 public class OrderController {
 
     @Autowired
